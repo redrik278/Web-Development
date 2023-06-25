@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+</head>
+<style>
+    tr{
+        border-radius: 0%;
+    }
+</style>
+<body>
+    <table style="border: 2px solid black; margin-left: auto; margin-right: auto;">
+        <tr>
+            <td>
+                <table style="margin-left: auto; margin-right: auto;">
+                    <tr><td colspan="2"><h1 >Registration Form</h1></td></tr>
+                    <tr>
+                        <td colspan="2">
+                            <tr>
+                                <form action="">
+                                    <tr>
+                                        <td><label for="name">UserId: </label></td>
+                                        <td><input type="text" required minlength="5" maxlength="12" ></td>
+                                    </tr>
+                                    <tr>
+                                        <td align=""><label for="name">Password: </label></td>
+                                        <td><input type="text" required minlength="5" maxlength="12"></td>
+                                    </tr>
+                                    <tr>
+                                        <td align=""><label for="name">Name: </label></td>
+                                        <td><input type="text" required pattern="[A-Za-z]" ></td>
+                                    </tr>
+                                    <tr>
+                                        <td align=""><label for="name">Country: </label></td>
+                                        <td>
+                                            <select name="country" id="country">
+                                                <option value="volvo">(Please select a country)</option>
+                                                <option value="saab">Russia</option>
+                                                <option value="mercedes">Ukraine</option>
+                                                <option value="audi">United State</option>
+                                                <option value="audi">India</option>
+                                                <option value="audi">China</option>
+                                              </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align=""><label for="name">Zip Code: </label></td>
+                                        <td><input type="text" required pattern="[0-9]" ></td>
+                                    </tr>
+                                    <tr>
+                                        <td align=""><label for="name">Email: </label></td>
+                                        <td><input type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td align=""><label for="name">Sex: </label></td>
+                                        <td>
+                                            <input type="radio" id="male" name="fav_language" value="male">
+                                            <label for="male">Female</label>
+                                            <input type="radio" id="female" name="fav_language" value="female">
+                                            <label for="female">Male</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align=""><label for="name">Language: </label></td>
+                                        <td>
+                                            <input type="checkbox" id="language1" name="language1" value="english">
+                                            <label for="language1">English</label>
+                                            <input type="checkbox" id="language2" name="language2" value="non-english">
+                                            <label for="language2"> Non English</label>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align=""><label for="about">About: </label></td>
+                                        <td><textarea id="about" name="about" rows="10" cols="30">
+                                            
+                                            </textarea></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <div style="text-align: center;;">
+                                                <button>submit</button>
+                                            </div>
+                                        </td>
+                                        
+                                    </tr>
+                                    
+                                </form>
+                                
+                            </tr>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Task2</title>
+    <style>
+        .name {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <form action="">
+        <table style="border-color:black ;background-color: black; margin:auto ;width: 400px; height:600px">
+            <tr>
+                <td style=" width:fit-content;color: white ;background-color: rgb(168, 120, 6);" colspan="2">Sign Up</td>
+            </tr>
+            <tr>
+                <td><label class="name" for="name">First Name </label></td>
+                <td><input type="text" placeholder="Enter First Name"></td>
+            </tr>
+            <tr>
+                <td><label class="name" for="name">Last Name </label></td>
+                <td><input type="text" placeholder="Enter Last Name"></td>
+            </tr>
+            <tr>
+                <td><label class="name" for="name">Screen Name </label></td>
+                <td><input type="text" placeholder="Enter Screen Name"></td>
+            </tr>
+            <tr>
+                <td><label class="name" for="name">Date of Birth </label></td>
+                <td>
+                    <select name="month" id="month">
+                        <option value="may">May</option>
+                        <option value="january">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="June">June</option>
+                    </select>
+                    <select name="day" id="day">
+                        <option value="5">5</option>
+                        <option value="2">2</option>
+                        <option value="5">3</option>
+                        <option value="5">4</option>
+                        <option value="5">6</option>
+                        <option value="5">7</option>
+                        <option value="9">9</option>
+                        <option value="11">11</option>
+                    </select>
+                    <select name="year" id="year">
+                        <option value="year">1985</option>
+                        <option value="year">1990</option>
+                        <option value="year">1986</option>
+                        <option value="year">1987</option>
+                        <option value="year">1988</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label class="name" for="name">Gender </label></td>
+                <td>
+                    <input type="radio"  id="male" name="fav_language" value="female">
+                    <label class="name" for="male">Male</label>
+                    <input type="radio" id="male" name="fav_language" value="male">
+                    <label class="name" for="female">female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label class="name" for="name">Country </label></td>
+                <td>
+                    <select name="country" id="country">
+                        <option value="volvo">USA</option>
+                        <option value="saab">Russia</option>
+                        <option value="mercedes">Ukraine</option>
+                        <option value="audi">India</option>
+                        <option value="audi">China</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align=""><label class="name" for="name">Email </label></td>
+                <td><input type="email" placeholder="Enter E-mail" required
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" /></td>
+            </tr>
+            <tr>
+                <td><label class="name" for="name">Phone </label></td>
+                <td><input type="text" placeholder="Enter Phone"></td>
+            </tr>
+            <tr>
+                <td><label class="name" for="name">Password </label></td>
+                <td><input type="password" placeholder=""></td>
+            </tr>
+            <tr>
+                <td><label class="name" for="name">Confirm Password </label></td>
+                <td><input type="password" placeholder=""></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div style="text-align: center;;">
+                        <input style="margin: auto; text-align: center;" type="radio" class="name" id="terms"
+                            name="terms" value="terms">
+                        <label class="name" for="terms">I agree to the Terms of Use</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div style="text-align: right; background-color:rgba(145, 145, 14, 0.84)">
+                        <button style="margin: 5px;;background-color: green; color:aliceblue; border:none">submit</button>
+                        <button style="margin:5px ;background-color: red; color:aliceblue; border:none">Cancel</button>
+                    </div>
+                </td>
+
+            </tr>
+        </table>
+    </form>
+    </table>
+    
+</body>
+
+</html>

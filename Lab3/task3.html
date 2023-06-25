@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+    <style>
+        .third_table {
+            margin: 0 auto;
+            border: solid black;
+        }
+
+        .third_table h1 {
+            color: black;
+            font-weight: bolder;
+            font-size: larger;
+        }
+
+        .third_table label {
+            font-weight: bold;
+            margin-right: 90px;
+        }
+
+        .third_table tr,
+        .third_table td {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form_body">
+        <form action="">
+            <table class="third_table" cellpadding="10" cellspacing="0">
+                <tr style="background-color: #5cc39a">
+                    <td>
+                        <h1>Workshop Registration</h1>
+                    </td>
+                    <td>More Actions<span>&#8681;</span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>
+                            <tr align="left">
+                                <td colspan="2" ;>
+                                    <a href="#" style="color: black">Register now while seats are available!</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="">First Name*</label></td>
+                                <td><input type="text" name="" id="" required /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="">Last Name *</label></td>
+                                <td><input type="text" name="" id="" required /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="company">Company/Institution *</label></td>
+                                <td><input type="text" name="" id="" required /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="address">Address *</label></td>
+                                <td>
+                                    <textarea style="height: 120px; width: 164px" id=""></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="">City</label></td>
+                                <td><input type="text" name="" id="" /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="">State/Provinance/Region</label></td>
+                                <td>
+                                    <select style="width: 177px" name="" id="">
+                                        <option value="">-Select</option>
+                                        <option value="Dhk">San Francisco</option>
+                                        <option value="Syl">Los Angeles</option>
+                                        <option value="Ctg">Uttar Pradesh</option>
+                                        <option value="AT">Altai Territory</option>
+                                        <option value="DHK">Dhaka</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="">Country</label></td>
+                                <td>
+                                    <select style="width: 177px" name="" id="">
+                                        <option value="">-Select</option>
+                                        <option value="Russia">Russia</option>
+                                        <option value="China">China</option>
+                                        <option value="US">United States</option>
+                                        <option value="IND">India</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="">Email *</label></td>
+                                <td><input type="text" name="" id="" required /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="">Phone *</label></td>
+                                <td>
+                                    <input type="text" pattern="[0-9]+" name="" id="" required />
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr align="left">
+                                <td colspan="2" ;>
+                                    <p style="color: black"><u>Lunch</u></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="">Meal Preference</label></td>
+                                <td>
+                                    <select style="width: 177px" name="" id="">
+                                        <option value="Veg">Vegitarian</option>
+                                        <option value="nVeg">Non Vegitarian</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr align="left">
+                                <td colspan="2" ;>
+                                    <p style="color: black"><u>Payment Details</u></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="">Payment Mode</label></td>
+                                <td><input type="checkbox" name="Checkbox" id="" /> Cash</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input type="checkbox" name="Checkbox" id="" /> Checque
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input type="checkbox" name="Checkbox" id="" /> Demand Draft
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="">DD/Cheque No. </label></td>
+                                <td><input type="text" pattern="[0-9]+" name="" id="" /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="">Drawn On (Bank Name) </label></td>
+                                <td><input type="text" name="" id="" /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="">Payable at </label></td>
+                                <td><input type="text" name="" id="" /></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr style="background-color: #eaeaea">
+                    <td colspan="3" align="center">
+                        <input style="
+                    background-color: #7cac9c; /* Green */
+                    border: none;
+                    color: white;
+                    padding: 10px 14px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 14px;
+                  " type="Submit" />
+                        <input style="
+                    background-color: #42ad8a; /* Green */
+                    border: none;
+                    color: white;
+                    padding: 10px 14px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 14px;
+                  " type="reset" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
