@@ -1,0 +1,549 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-2xl: 21px;
+  --font-size-5xl: 24px;
+  --font-size-4xl: 23px;
+  --font-size-11xl: 30px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkslategray-100: #2f3846;
+  --color-darkslategray-200: #353535;
+}
+
+
+
+.bg-box-right {
+  left: 0;
+  background-color: #2b3743;
+  width: 494px;
+}
+.bg-box,
+.bg-box-left,
+.bg-box-right,
+.bg-line-3 {
+  position: absolute;
+  top: 0;
+  height: 1472px;
+}
+.bg-box-left {
+  left: 494px;
+  background-color: #eee;
+  width: 873px;
+}
+.bg-box,
+.bg-line-3 {
+  left: -2px;
+  width: 1367px;
+}
+.bg-line-3 {
+  top: 62px;
+  left: 0;
+  background-color: #548ca8;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1365px;
+  height: 222px;
+}
+.md-redwan-ahmed {
+  position: absolute;
+  top: 81px;
+  left: 47px;
+  font-size: 72px;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  font-family: var(--font-poppins);
+  width: 843px;
+}
+.icons-border {
+  top: 16px;
+  left: 983px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 314px;
+  height: 314px;
+}
+.icons,
+.icons-border,
+.student {
+  position: absolute;
+}
+.icons {
+  top: 32px;
+  left: 999px;
+  border-radius: 50%;
+  width: 282px;
+  height: 282px;
+  object-fit: cover;
+}
+.student {
+  top: 184px;
+  left: 47px;
+  font-size: 45px;
+  letter-spacing: 0.03em;
+  font-family: var(--font-poppins);
+}
+.icon-person {
+  position: absolute;
+  height: 80.47%;
+  width: 21.75%;
+  top: 0;
+  right: 78.25%;
+  bottom: 19.53%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.male1 {
+  position: absolute;
+  top: 2px;
+  left: 59px;
+  letter-spacing: -0.04em;
+}
+.icon-calendar,
+.male {
+  position: absolute;
+  height: 7.97%;
+  width: 29.06%;
+  top: 0;
+  right: 70.94%;
+  bottom: 92.03%;
+  left: 0;
+}
+.icon-calendar {
+  height: 98.4%;
+  width: 14.28%;
+  right: 85.72%;
+  bottom: 1.6%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.august {
+  position: absolute;
+  top: 0;
+  left: 59px;
+  letter-spacing: -0.04em;
+}
+.date,
+.icon-call {
+  position: absolute;
+  height: 7.44%;
+  width: 44.24%;
+  top: 18.61%;
+  right: 55.76%;
+  bottom: 73.95%;
+  left: 0;
+}
+.icon-call {
+  height: 86.38%;
+  width: 9.58%;
+  top: 7.14%;
+  right: 90.42%;
+  bottom: 6.48%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.call,
+.icon-envelope-closed {
+  position: absolute;
+  height: 7.44%;
+  width: 65.97%;
+  top: 36.68%;
+  right: 34.03%;
+  bottom: 55.87%;
+  left: 0;
+}
+.icon-envelope-closed {
+  height: 64.66%;
+  width: 8.18%;
+  top: 17.86%;
+  right: 91.82%;
+  bottom: 17.48%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.e-mail,
+.icon-globe {
+  position: absolute;
+  height: 7.44%;
+  width: 77.23%;
+  top: 54.76%;
+  right: 22.77%;
+  bottom: 37.8%;
+  left: 0;
+}
+.icon-globe {
+  height: 80.47%;
+  width: 6.32%;
+  top: 0;
+  right: 93.68%;
+  bottom: 19.53%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.facebook,
+.icon-map-marker {
+  position: absolute;
+  height: 7.97%;
+  width: 100%;
+  top: 72.84%;
+  right: 0;
+  bottom: 19.19%;
+  left: 0;
+}
+.icon-map-marker {
+  height: 100%;
+  width: 10.19%;
+  top: 0;
+  right: 89.81%;
+  bottom: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.babasree-dhaka {
+  position: absolute;
+  top: 4px;
+  left: 59px;
+  letter-spacing: -0.04em;
+}
+.contact-info,
+.location {
+  position: absolute;
+  height: 8.56%;
+  width: 62.04%;
+  top: 91.44%;
+  right: 37.96%;
+  bottom: 0;
+  left: 0;
+}
+.contact-info {
+  height: 25.56%;
+  width: 27.99%;
+  top: 24.05%;
+  right: 68.57%;
+  bottom: 50.39%;
+  left: 3.44%;
+  font-size: var(--font-size-4xl);
+}
+.skills {
+  position: absolute;
+  top: 798px;
+  left: 47px;
+  font-size: 33px;
+  letter-spacing: -0.04em;
+}
+.education,
+.objective {
+  left: 548px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-100);
+}
+.objective {
+  position: absolute;
+  top: 370px;
+  letter-spacing: -0.04em;
+}
+.education {
+  top: 706px;
+}
+.activities,
+.computer,
+.computer1,
+.education {
+  position: absolute;
+  letter-spacing: -0.04em;
+}
+.activities {
+  top: 1243px;
+  left: 548px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-100);
+}
+.computer,
+.computer1 {
+  top: 969px;
+  left: 84px;
+  font-size: var(--font-size-xl);
+}
+.computer1 {
+  top: 859px;
+}
+.additional,
+.i-am-a,
+.information,
+.interests {
+  position: absolute;
+  top: 1106px;
+  left: 47px;
+  font-size: var(--font-size-11xl);
+  letter-spacing: -0.04em;
+}
+.additional,
+.i-am-a,
+.information {
+  top: 1269px;
+}
+.i-am-a,
+.information {
+  top: 1323px;
+}
+.i-am-a {
+  top: 1386px;
+  font-size: var(--font-size-4xl);
+  letter-spacing: -0.05em;
+  font-weight: 600;
+  display: inline-block;
+  width: 284px;
+}
+.i-like-soccer,
+.word-excel-powerpoint,
+.word-excel-powerpoint1 {
+  position: absolute;
+  top: 1005px;
+  left: 47px;
+  letter-spacing: -0.08em;
+  font-weight: 300;
+}
+.i-like-soccer,
+.word-excel-powerpoint1 {
+  top: 895px;
+}
+.i-like-soccer {
+  top: 1166px;
+}
+.hr,
+.hr1,
+.hr2,
+.hr3,
+.hr4,
+.hr5 {
+  position: absolute;
+  top: 768px;
+  left: 46px;
+  background-color: var(--color-white);
+  width: 402px;
+  height: 5px;
+}
+.hr1,
+.hr2,
+.hr3,
+.hr4,
+.hr5 {
+  top: 1074px;
+}
+.hr2,
+.hr3,
+.hr4,
+.hr5 {
+  top: 1238px;
+}
+.hr3,
+.hr4,
+.hr5 {
+  top: 386px;
+  left: 734px;
+  background-color: var(--color-darkslategray-100);
+  width: 558px;
+}
+.hr4,
+.hr5 {
+  top: 722px;
+}
+.hr5 {
+  top: 1259px;
+}
+.fill-in-your {
+  margin-block-start: 0;
+  margin-block-end: 7px;
+}
+.for-company {
+  margin: 0;
+}
+.fill-in-your-container {
+  position: absolute;
+  top: 433px;
+  left: 551px;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.01em;
+  color: #000;
+}
+.bsc-in-computer-container,
+.div,
+.higher-secondary,
+.learner,
+.ssc {
+  position: absolute;
+  left: 584px;
+  color: var(--color-darkslategray-200);
+}
+.ssc {
+  top: 791px;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+.bsc-in-computer-container,
+.div,
+.higher-secondary,
+.learner {
+  top: 934px;
+  letter-spacing: -0.11em;
+}
+.bsc-in-computer-container,
+.div,
+.learner {
+  top: 1332px;
+}
+.bsc-in-computer-container,
+.div {
+  top: 1077px;
+  letter-spacing: -0.1em;
+}
+.div {
+  top: 836px;
+  left: 583px;
+  letter-spacing: -0.01em;
+}
+.div1,
+.div2,
+.january-2009-,
+.january-2014-,
+.january-2019-,
+.learning-machine-learning,
+.now {
+  position: absolute;
+  top: 979px;
+  left: 583px;
+  letter-spacing: -0.01em;
+  color: var(--color-darkslategray-200);
+}
+.div2,
+.january-2009-,
+.january-2014-,
+.january-2019-,
+.learning-machine-learning,
+.now {
+  top: 1377px;
+}
+.div2,
+.january-2009-,
+.january-2014-,
+.january-2019-,
+.now {
+  top: 1154px;
+  letter-spacing: -0.12em;
+}
+.january-2009-,
+.january-2014-,
+.january-2019-,
+.now {
+  top: 794px;
+  left: 998px;
+  font-size: var(--font-size-2xl);
+  letter-spacing: -0.04em;
+}
+.january-2014-,
+.january-2019-,
+.now {
+  top: 937px;
+}
+.january-2019-,
+.now {
+  top: 1335px;
+  left: 1162px;
+}
+.january-2019- {
+  top: 1111px;
+  left: 998px;
+}
+.activity-organization,
+.al-amin-academy,
+.east-west-university,
+.hasan-aligovt-hight {
+  position: absolute;
+  top: 750px;
+  left: 586px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--color-darkslategray-100);
+}
+.activity-organization,
+.al-amin-academy,
+.east-west-university {
+  top: 893px;
+}
+.activity-organization,
+.east-west-university {
+  top: 1291px;
+}
+.east-west-university {
+  top: 1036px;
+}
+.cercale,
+.cercale1,
+.cercale2,
+.cercale3,
+.cercale4,
+.cercale5 {
+  position: absolute;
+  top: 755px;
+  left: 551px;
+  border-radius: 50%;
+  background-color: var(--color-darkslategray-100);
+  width: 14px;
+  height: 14px;
+}
+.cercale1,
+.cercale2,
+.cercale3,
+.cercale4,
+.cercale5 {
+  top: 898px;
+}
+.cercale2,
+.cercale3,
+.cercale4,
+.cercale5 {
+  top: 1296px;
+}
+.cercale3,
+.cercale4,
+.cercale5 {
+  top: 1041px;
+}
+.cercale4,
+.cercale5 {
+  top: 866px;
+  left: 49px;
+  background-color: var(--color-white);
+  width: 10px;
+  height: 10px;
+}
+.cercale5 {
+  top: 976px;
+}
+.ra-cv {
+  position: relative;
+  background-color: #ababab;
+  width: 100%;
+  height: 1472px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
