@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<brightstar>
+    <planet>
+        <name>Sirius</name>
+        <magnitude> 1.45</magnitude>
+        <distance> 9</distance>
+    </planet>
+    <planet>
+        <name>Canopus</name>
+        <magnitude> -5.53</magnitude>
+        <distance> 310</distance>
+    </planet>
+
+    <planet>
+        <name>Rigil Kentaurus</name>
+        <magnitude> 4.34</magnitude>
+        <distance> 4</distance>
+    </planet>
+</brightstar>
