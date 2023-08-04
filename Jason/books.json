@@ -1,0 +1,38 @@
+{
+  "bookstore": {
+    "books": [
+      {
+        "title": "Everyday Italian",
+        "author": "Giada De Laurentiis",
+        "category": "Cooking",
+        "year": 2005,
+        "price": 30.00,
+        "languages": ["English", "Italian"]
+      },
+      {
+        "title": "Harry Potter",
+        "author": "J. K. Rowling",
+        "category": "Fantasy",
+        "year": 1997,
+        "price": 29.99,
+        "languages": ["English"]
+      },
+      {
+        "title": "XQuery Kick Start",
+        "author": "James McGovern",
+        "category": "Web Development",
+        "year": 2003,
+        "price": 49.99,
+        "languages": ["English"]
+      },
+      {
+        "title": "Learning XML",
+        "author": "Erick T. Ray",
+        "category": "Web Development",
+        "year": 2003,
+        "price": 39.95,
+        "languages": ["English"]
+      }
+    ]
+  }
+}

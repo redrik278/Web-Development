@@ -1,0 +1,52 @@
+{
+    "company": {
+        "employees": [
+            {
+                "firstName": "Josh",
+                "lastName": "Doe",
+                "DOB": 1998,
+                "Join": "20-2-2019"
+            },
+            {
+                "firstName": "Anna",
+                "lastName": "Smith",
+                "DOB": 1998,
+                "Join": "20-2-2019"
+            },
+            {
+                "firstName": "Peter",
+                "lastName": "Jones",
+                "DOB": 1998,
+                "Join": "20-2-2019"
+            }
+        ]
+    },
+
+
+    "bosses": {
+        "worker": [
+            {
+                "firstName": "Donald",
+                "lastName": "Doe",
+                "DOB": 1998,
+                "Join": "20-2-23"
+            },
+            {
+                "firstName": "Rafid",
+                "lastName": "Smith",
+                "DOB": 1998,
+                "Join": "20-2-2019"
+            },
+            {
+                "firstName": "Ashraf",
+                "lastName": "Jones",
+                "DOB": 1998,
+                "Join": "20-2-2019"
+            }
+        ]
+    }
+
+    
+
+
+}
