@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        #calculator {
+            width: 300px;
+            margin: 0 auto; /* Center-align the calculator */
+            margin-top: 50px; /* Add some top margin for spacing */
+            border: 2px solid #000; /* Add a black border */
+            background-color: #000; /* Set the background color to black */
+            color: #fff; /* Set text color to white */
+            padding: 20px; /* Add some padding for spacing */
+        }
+        .calculator-button {
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+            margin: 5px;
+        }
+        #display {
+            width: 100%;
+            padding: 10px;
+            font-size: 24px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div id="calculator" class="text-center">
+        <h1>JavaScript Calculator</h1>
+        <input type="text" id="display" readonly class="form-control">
+        <br>
+        <div class="btn-group">
+            <button class="calculator-button btn btn-light" onclick="appendToDisplay('7')">7</button>
+            <button class="calculator-button btn btn-light" onclick="appendToDisplay('8')">8</button>
+            <button class="calculator-button btn btn-light" onclick="appendToDisplay('9')">9</button>
+            <button class="calculator-button btn btn-warning" onclick="appendToDisplay('/')">/</button>
+        </div>
+        <br>
+        <div class="btn-group">
+            <button class="calculator-button btn btn-light" onclick="appendToDisplay('4')">4</button>
+            <button class="calculator-button btn btn-light" onclick="appendToDisplay('5')">5</button>
+            <button class="calculator-button btn btn-light" onclick="appendToDisplay('6')">6</button>
+            <button class="calculator-button btn btn-warning" onclick="appendToDisplay('*')">*</button>
+        </div>
+        <br>
+        <div class="btn-group">
+            <button class="calculator-button btn btn-light" onclick="appendToDisplay('1')">1</button>
+            <button class="calculator-button btn btn-light" onclick="appendToDisplay('2')">2</button>
+            <button class="calculator-button btn btn-light" onclick="appendToDisplay('3')">3</button>
+            <button class="calculator-button btn btn-warning" onclick="appendToDisplay('-')">-</button>
+        </div>
+        <br>
+        <div class="btn-group">
+            <button class="calculator-button btn btn-danger" onclick="clearDisplay()">C</button>
+            <button class="calculator-button btn btn-light" onclick="appendToDisplay('0')">0</button>
+            <button class="calculator-button btn btn-success" onclick="calculate()">=</button>
+            <button class="calculator-button btn btn-warning" onclick="appendToDisplay('+')">+</button>
+        </div>
+    </div>
+    
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        function appendToDisplay(value) {
+            document.getElementById("display").value += value;
+        }
+
+        function clearDisplay() {
+            document.getElementById("display").value = "";
+        }
+
+        function calculate() {
+            try {
+                const result = eval(document.getElementById("display").value);
+                document.getElementById("display").value = result;
+            } catch (error) {
+                document.getElementById("display").value = "Error";
+            }
+        }
+    </script>
+</body>
+</html>
